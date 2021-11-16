@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/graybackground"
+    android:backgroundTint="@color/graybackground"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="25dp"
+        android:fontFamily="@font/alfa_slab_one"
+        android:gravity="center"
+        android:text="@string/nameText"
+        android:textColor="#000000"
+        android:textSize="40dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/phone_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:text="phone" />
+
+        <Button
+            android:id="@+id/email_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:text="Email" />
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/Summery"
+                style="@style/titleTexts"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:text="PROFESSIONAL SUMMARY"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/summeryInfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:text="Hardworking and passionate Android Mobile Developer seeking an opportunity to work with a team to incorporate input into projects. I have the ability to always look for ways to improve upon an already existing app. I'm an organized and dependable candidate successful at managing multiple priorities with a positive attitude and the willingness to take on added responsibilities to meet team goals."
+                android:textColor="#000000" />
+
+            <View
+                android:id="@+id/divider"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="?android:attr/listDivider" />
+
+            <TextView
+                android:id="@+id/Experience"
+                style="@style/titleTexts"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Experience" />
+
+            <TextView
+                android:id="@+id/ExperienceInfo"
+                style="@style/infoTexts"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/experience" />
+
+            <View
+                android:id="@+id/divider2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="?android:attr/listDivider" />
+
+            <TextView
+                android:id="@+id/Education"
+                style="@style/titleTexts"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Education" />
+
+            <TextView
+                android:id="@+id/EducationInfo"
+                style="@style/infoTexts"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/educationInfo" />
+
+            <View
+                android:id="@+id/divider3"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="?android:attr/listDivider" />
+
+            <TextView
+                android:id="@+id/Skills"
+                style="@style/titleTexts"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Skills" />
+
+            <TextView
+                android:id="@+id/skillsInfo"
+                style="@style/infoTexts"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/skillsInfo" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

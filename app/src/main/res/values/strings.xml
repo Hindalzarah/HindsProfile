@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Hind\'s Profile</string>
+    <string name="nameText">Hind Alzarah</string>
+    <string name="experience">*Chosen for the coding bootcamp Tuwaiq 1000 along 25 developers in Dammam city to be trained on application development using kotlin language. \n *Managed to cover the Kotlin language important topics in 2 weeks. \n
+        *Developed a full \"to do list\" app using kotlin language in 10 days.</string>
+    <string name="educationInfo">bachelor’s degree in Electronic Commerce. \n
+        Saudi Electronic University \n 2017–03 – 2021–11</string>
+    <string name="skillsInfo">*In-depth understanding of Mobile Application programming language and ability to build applications using Kotlin language. \n *Active listening skills to truly hear feedback and incorporate notes effectively. \n  *Ability to think creatively and find unique solutions to problems. \n *Strong communication skills to effectively speak with people at any level of an organization from subordinates to supervisors. \n *Technical application support and maintenance</string>
+</resources>
